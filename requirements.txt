@@ -1,0 +1,32 @@
+# FastAPI and web server dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Video and audio processing
+yt-dlp
+opencv-python==4.8.1.78
+ffmpeg-python==0.2.0
+
+# Machine Learning and Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+supervision>=0.16.0
+
+# Audio processing and transcription
+openai-whisper>=20231117
+tqdm>=4.66.0
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+Pillow>=10.0.0
+
+# Optional: For better performance on GPU
+# torch-cuda (install separately if needed)
+
